@@ -1,4 +1,4 @@
-# Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation
+# CRNet and WDBN
 The released code of papers 
 
 1. Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation, which is accepted in AAAI 2024
