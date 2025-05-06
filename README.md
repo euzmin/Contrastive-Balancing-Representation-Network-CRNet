@@ -1,9 +1,17 @@
 # Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation
-The released code of paper Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation, which is accepted in AAAI 2024
+The released code of papers 
 
-# Usage
+1. Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation, which is accepted in AAAI 2024
+2. Learning Double Balancing Representation for Heterogeneous Dose-Response Curve Estimation, which is accepted in Neural Networks 2025
+
+# For CRNet
 ```
 python run_exp.py
+```
+
+# For WDBN
+```
+python run_exp_WDBN.py
 ```
 
 # Citation
