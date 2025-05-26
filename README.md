@@ -16,4 +16,5 @@ python run_exp_WDBN.py
 
 ## Citation
 Zhu M, Wu A, Li H, et al. Contrastive Balancing Representation Learning for Heterogeneous Dose-Response Curves Estimation[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2024, 38(15): 17175-17183.
+
 Zhu M, Wu A, Li H, et al. Learning double balancing representation for heterogeneous dose-response curve estimation[J]. Neural Networks, 2025: 107600.
