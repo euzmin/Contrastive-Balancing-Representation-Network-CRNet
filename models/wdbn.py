@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-from models.earlystop import EarlyStopper
+#from models.earlystop import EarlyStopper
 import os
 
 def U_distance_matrix(latent):
@@ -206,7 +206,7 @@ class WDBN(nn.Module):
  
     def train_model(self, args, b_opt, w_opt, y_opt, train_data, valid_data, test_data, device, save_path):
         self.train()
-        early_stopper = EarlyStopper(patience=5, min_delta=0)
+        #early_stopper = EarlyStopper(patience=5, min_delta=0)
         best_val_loss = float('inf')
         train_data = torch.tensor(train_data, dtype=torch.float32).to(device)
         valid_data = torch.tensor(valid_data, dtype=torch.float32).to(device)
